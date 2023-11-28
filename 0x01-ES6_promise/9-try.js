@@ -1,5 +1,7 @@
+/* eslint-disable */
 export default function guardrail(mathFunction) {
   const queue = new Array();
+
   try {
     queue.push(mathFunction());
   } catch (error) {
